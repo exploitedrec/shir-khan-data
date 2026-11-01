@@ -1,0 +1,22 @@
+name: Resolve store links (one-off)
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["scan/resolve-apple.mjs", "scan/upcs.json"]
+permissions:
+  contents: write
+jobs:
+  resolve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955 # v4.3.0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: 22
+      - run: node scan/resolve-apple.mjs
+      - run: |
+          git config user.name "shir-khan-data bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add scan/apple.json && git commit -m "scan: apple ids" && git pull --rebase && git push || echo "nothing to commit"
