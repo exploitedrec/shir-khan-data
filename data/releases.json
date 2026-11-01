@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T00:00:00.000Z",
+  "updated": "2026-11-01T00:20:57.081Z",
   "count": 37,
   "releases": [
     {
@@ -37,7 +37,8 @@
         "traxsource": "https://www.traxsource.com/title/2671788/shir-khan-presents-welt-am-draht-2025"
       },
       "sources": [
-        "seed"
+        "seed",
+        "apple"
       ],
       "resolved": true,
       "firstSeen": "2026-11-01"
@@ -77,7 +78,8 @@
         "traxsource": "https://www.traxsource.com/title/2424090/shir-khan-presents-welt-am-draht-2024"
       },
       "sources": [
-        "seed"
+        "seed",
+        "apple"
       ],
       "resolved": true,
       "firstSeen": "2026-11-01"
@@ -97,7 +99,8 @@
         "traxsource": "https://www.traxsource.com/title/2135386/shir-khan-presents-welt-am-draht-2023"
       },
       "sources": [
-        "seed"
+        "seed",
+        "apple"
       ],
       "resolved": true,
       "firstSeen": "2026-11-01"
@@ -157,7 +160,8 @@
         "traxsource": "https://www.traxsource.com/title/1944461/shir-khan-presents-welt-am-draht-2022"
       },
       "sources": [
-        "seed"
+        "seed",
+        "apple"
       ],
       "resolved": true,
       "firstSeen": "2026-11-01"
@@ -197,7 +201,8 @@
         "traxsource": "https://www.traxsource.com/title/1713922/shir-khan-presents-exploited-club-trax-vol-07"
       },
       "sources": [
-        "seed"
+        "seed",
+        "apple"
       ],
       "resolved": true,
       "firstSeen": "2026-11-01"
@@ -217,7 +222,8 @@
         "traxsource": "https://www.traxsource.com/title/1713920/shir-khan-presents-welt-am-draht-2021"
       },
       "sources": [
-        "seed"
+        "seed",
+        "apple"
       ],
       "resolved": true,
       "firstSeen": "2026-11-01"
@@ -257,7 +263,8 @@
         "traxsource": "https://www.traxsource.com/title/1463496/shir-khan-presents-welt-am-draht-2020"
       },
       "sources": [
-        "seed"
+        "seed",
+        "apple"
       ],
       "resolved": true,
       "firstSeen": "2026-11-01"
@@ -297,7 +304,8 @@
         "traxsource": "https://www.traxsource.com/title/1236570/shir-khan-presents-exploited-2019-ffwd-rwd"
       },
       "sources": [
-        "seed"
+        "seed",
+        "apple"
       ],
       "resolved": true,
       "firstSeen": "2026-11-01"
@@ -337,7 +345,8 @@
         "traxsource": "https://www.traxsource.com/title/1037636/shir-khan-presents-exploited-2018-ffwd-rwd"
       },
       "sources": [
-        "seed"
+        "seed",
+        "apple"
       ],
       "resolved": true,
       "firstSeen": "2026-11-01"
@@ -357,10 +366,59 @@
         "traxsource": "https://www.traxsource.com/title/882059/shir-khan-presents-exploited-2017-ffwd-rwd"
       },
       "sources": [
-        "seed"
+        "seed",
+        "apple",
+        "exploitedghetto"
       ],
       "resolved": true,
-      "firstSeen": "2026-11-01"
+      "firstSeen": "2026-11-01",
+      "exploitedUrl": "https://exploitedghetto.de/out-today-shir-khan-presents-exploited-2017-ffwd-rwd/"
+    },
+    {
+      "title": "Shir Khan Presents Secret Gold 09",
+      "slug": "shir-khan-presents-secret-gold-09",
+      "date": "2017-07-17",
+      "url": "https://shirkhanofficial.bandcamp.com/album/shir-khan-presents-secret-gold-09",
+      "cover": "https://f4.bcbits.com/img/a3884588780_16.jpg",
+      "upc": "4050486993095",
+      "stores": {
+        "apple": "https://music.apple.com/album/1565810019",
+        "spotify": "https://open.spotify.com/album/1P30kSfzIvZhqYeADtWGla",
+        "deezer": "https://www.deezer.com/album/62275502",
+        "beatport": "https://www.beatport.com/release/shir-khan-presents-secret-gold-09/2019191",
+        "traxsource": "https://www.traxsource.com/title/801481/shir-khan-presents-secret-gold-09"
+      },
+      "sources": [
+        "seed",
+        "apple",
+        "exploitedghetto"
+      ],
+      "resolved": true,
+      "firstSeen": "2026-11-01",
+      "exploitedUrl": "https://exploitedghetto.de/out-today-on-beatport-shir-khan-presents-secret-gold-9/"
+    },
+    {
+      "title": "Shir Khan Presents Exploited Ghetto Trax, Vol. 2",
+      "slug": "shir-khan-presents-exploited-ghetto-trax-vol-2",
+      "date": "2016-12-12",
+      "url": "https://shirkhanofficial.bandcamp.com/album/shir-khan-presents-exploited-ghetto-trax-vol-2",
+      "cover": "https://f4.bcbits.com/img/a1702120665_16.jpg",
+      "upc": "4050486975336",
+      "stores": {
+        "apple": "https://music.apple.com/album/1565810452",
+        "spotify": "https://open.spotify.com/album/0oc2aqpgsLbl4Ec32nUWY1",
+        "deezer": "https://www.deezer.com/album/62273242",
+        "beatport": null,
+        "traxsource": "https://www.traxsource.com/title/702040/shir-khan-presents-exploited-ghetto-trax-vol-2"
+      },
+      "sources": [
+        "seed",
+        "apple",
+        "exploitedghetto"
+      ],
+      "resolved": true,
+      "firstSeen": "2026-11-01",
+      "exploitedUrl": "https://exploitedghetto.de/out-today-on-beatport-shir-khan-presents-exploited-ghetto-trax-volume-02/"
     },
     {
       "title": "Shir Khan Presents Exploited 2016 FFWD RWD",
@@ -377,35 +435,40 @@
         "traxsource": "https://www.traxsource.com/title/702036/shir-khan-presents-exploited-2016-ffwd-rwd"
       },
       "sources": [
-        "seed"
+        "seed",
+        "apple",
+        "exploitedghetto"
       ],
       "resolved": true,
-      "firstSeen": "2026-11-01"
+      "firstSeen": "2026-11-01",
+      "exploitedUrl": "https://exploitedghetto.de/out-today-shir-khan-presents-exploited-2016-ffwd-rwd/"
     },
     {
-      "title": "Shir Khan Presents Exploited Ghetto Trax, Vol. 2",
-      "slug": "shir-khan-presents-exploited-ghetto-trax-vol-2",
-      "date": null,
-      "url": "https://shirkhanofficial.bandcamp.com/album/shir-khan-presents-exploited-ghetto-trax-vol-2",
-      "cover": "https://f4.bcbits.com/img/a1702120665_16.jpg",
-      "upc": "4050486975336",
+      "title": "Shir Khan Presents Black Jukebox 16",
+      "slug": "shir-khan-presents-black-jukebox-16",
+      "date": "2016-10-31",
+      "url": "https://shirkhanofficial.bandcamp.com/album/shir-khan-presents-black-jukebox-16",
+      "cover": "https://f4.bcbits.com/img/a2605030781_16.jpg",
+      "upc": "4050486972007",
       "stores": {
-        "apple": "https://music.apple.com/album/1565810452",
-        "spotify": "https://open.spotify.com/album/0oc2aqpgsLbl4Ec32nUWY1",
-        "deezer": "https://www.deezer.com/album/62273242",
-        "beatport": null,
-        "traxsource": "https://www.traxsource.com/title/702040/shir-khan-presents-exploited-ghetto-trax-vol-2"
+        "apple": "https://music.apple.com/album/1565837993",
+        "spotify": "https://open.spotify.com/album/3OV7xnJZYOmRh56rwoWk7p",
+        "deezer": "https://www.deezer.com/album/62296902",
+        "beatport": "https://www.beatport.com/release/shir-khan-presents-black-jukebox-16/1838041",
+        "traxsource": "https://www.traxsource.com/title/681500/shir-khan-presents-black-jukebox-16"
       },
       "sources": [
-        "seed"
+        "seed",
+        "exploitedghetto"
       ],
       "resolved": true,
-      "firstSeen": "2026-11-01"
+      "firstSeen": "2026-11-01",
+      "exploitedUrl": "https://exploitedghetto.de/out-today-on-beatport-shir-khan-presents-black-jukebox-16/"
     },
     {
       "title": "Shir Khan Presents Dancing & Romancing",
       "slug": "shir-khan-presents-dancing-romancing",
-      "date": null,
+      "date": "2016-09-23",
       "url": "https://shirkhanofficial.bandcamp.com/album/shir-khan-presents-dancing-romancing",
       "cover": "https://f4.bcbits.com/img/a2218991498_16.jpg",
       "upc": "4050486964026",
@@ -417,95 +480,18 @@
         "traxsource": null
       },
       "sources": [
-        "seed"
+        "seed",
+        "apple",
+        "exploitedghetto"
       ],
       "resolved": true,
-      "firstSeen": "2026-11-01"
-    },
-    {
-      "title": "Shir Khan Presents Secret Gold 12",
-      "slug": "shir-khan-presents-secret-gold-12",
-      "date": null,
-      "url": "https://shirkhanofficial.bandcamp.com/album/shir-khan-presents-secret-gold-12",
-      "cover": "https://f4.bcbits.com/img/a3039855985_16.jpg",
-      "upc": "195081190969",
-      "stores": {
-        "apple": "https://music.apple.com/album/1506475869",
-        "spotify": "https://open.spotify.com/album/4R2tmkCYG4Z1sFfRTe5Xdy",
-        "deezer": "https://www.deezer.com/album/140169342",
-        "beatport": "https://www.beatport.com/release/shir-khan-presents-secret-gold-12/2922651",
-        "traxsource": "https://www.traxsource.com/title/1328451/shir-khan-presents-secret-gold-12"
-      },
-      "sources": [
-        "seed"
-      ],
-      "resolved": true,
-      "firstSeen": "2026-11-01"
-    },
-    {
-      "title": "Shir Khan Presents Secret Gold 11",
-      "slug": "shir-khan-presents-secret-gold-11",
-      "date": null,
-      "url": "https://shirkhanofficial.bandcamp.com/album/shir-khan-presents-secret-gold-11",
-      "cover": "https://f4.bcbits.com/img/a2148836259_16.jpg",
-      "upc": "193483855639",
-      "stores": {
-        "apple": "https://music.apple.com/album/1470443337",
-        "spotify": "https://open.spotify.com/album/1o3jDLWTAfhoWhFQX7VLrm",
-        "deezer": "https://www.deezer.com/album/101761862",
-        "beatport": "https://www.beatport.com/release/shir-khan-presents-secret-gold-11/2595879",
-        "traxsource": null
-      },
-      "sources": [
-        "seed"
-      ],
-      "resolved": true,
-      "firstSeen": "2026-11-01"
-    },
-    {
-      "title": "Shir Khan Presents Secret Gold 10",
-      "slug": "shir-khan-presents-secret-gold-10",
-      "date": null,
-      "url": "https://shirkhanofficial.bandcamp.com/album/shir-khan-presents-secret-gold-10",
-      "cover": "https://f4.bcbits.com/img/a2887860986_16.jpg",
-      "upc": "192562728987",
-      "stores": {
-        "apple": "https://music.apple.com/album/1405069867",
-        "spotify": "https://open.spotify.com/album/6BN63ZFWQnLHmxWWSCncJ9",
-        "deezer": "https://www.deezer.com/album/67097162",
-        "beatport": "https://www.beatport.com/release/shir-khan-presents-secret-gold-10/2331556",
-        "traxsource": "https://www.traxsource.com/title/1004322/secret-gold-10"
-      },
-      "sources": [
-        "seed"
-      ],
-      "resolved": true,
-      "firstSeen": "2026-11-01"
-    },
-    {
-      "title": "Shir Khan Presents Secret Gold 09",
-      "slug": "shir-khan-presents-secret-gold-09",
-      "date": null,
-      "url": "https://shirkhanofficial.bandcamp.com/album/shir-khan-presents-secret-gold-09",
-      "cover": "https://f4.bcbits.com/img/a3884588780_16.jpg",
-      "upc": "4050486993095",
-      "stores": {
-        "apple": "https://music.apple.com/album/1565810019",
-        "spotify": "https://open.spotify.com/album/1P30kSfzIvZhqYeADtWGla",
-        "deezer": "https://www.deezer.com/album/62275502",
-        "beatport": "https://www.beatport.com/release/shir-khan-presents-secret-gold-09/2019191",
-        "traxsource": "https://www.traxsource.com/title/801481/shir-khan-presents-secret-gold-09"
-      },
-      "sources": [
-        "seed"
-      ],
-      "resolved": true,
-      "firstSeen": "2026-11-01"
+      "firstSeen": "2026-11-01",
+      "exploitedUrl": "https://exploitedghetto.de/out-today-shir-khan-presents-dancing-romancing/"
     },
     {
       "title": "Shir Khan Presents Secret Gold 08",
       "slug": "shir-khan-presents-secret-gold-08",
-      "date": null,
+      "date": "2016-07-11",
       "url": "https://shirkhanofficial.bandcamp.com/album/shir-khan-presents-secret-gold-08",
       "cover": "https://f4.bcbits.com/img/a4164589015_16.jpg",
       "upc": "4050486963005",
@@ -517,15 +503,17 @@
         "traxsource": "https://www.traxsource.com/title/623297/shir-khan-presents-secret-gold-vol-8"
       },
       "sources": [
-        "seed"
+        "seed",
+        "exploitedghetto"
       ],
       "resolved": true,
-      "firstSeen": "2026-11-01"
+      "firstSeen": "2026-11-01",
+      "exploitedUrl": "https://exploitedghetto.de/out-today-on-beatport-shir-khan-presents-secret-gold-8/"
     },
     {
       "title": "Shir Khan Presents Secret Gold, Vol. 7",
       "slug": "shir-khan-presents-secret-gold-vol-7",
-      "date": null,
+      "date": "2016-06-27",
       "url": "https://shirkhanofficial.bandcamp.com/album/shir-khan-presents-secret-gold-vol-7",
       "cover": "https://f4.bcbits.com/img/a3798047142_16.jpg",
       "upc": "4050486962954",
@@ -537,24 +525,155 @@
         "traxsource": "https://www.traxsource.com/title/623295/shir-khan-presents-secret-gold-vol-7"
       },
       "sources": [
-        "seed"
+        "seed",
+        "apple",
+        "exploitedghetto"
+      ],
+      "resolved": true,
+      "firstSeen": "2026-11-01",
+      "exploitedUrl": "https://exploitedghetto.de/out-today-on-beatport-shir-khan-presents-secret-gold-7/"
+    },
+    {
+      "title": "Shir Khan Presents Black Jukebox 14",
+      "slug": "shir-khan-presents-black-jukebox-14",
+      "date": "2016-05-02",
+      "url": "https://shirkhanofficial.bandcamp.com/album/shir-khan-presents-black-jukebox-14",
+      "cover": "https://f4.bcbits.com/img/a2932306678_16.jpg",
+      "upc": "4050486957738",
+      "stores": {
+        "apple": "https://music.apple.com/album/1566008662",
+        "spotify": "https://open.spotify.com/album/320IHwU8ewuveZZTGfz8Tr",
+        "deezer": "https://www.deezer.com/album/62275742",
+        "beatport": "https://www.beatport.com/release/shir-khan-presents-black-jukebox-14/1714344",
+        "traxsource": "https://www.traxsource.com/title/595605/shir-khan-presents-black-jukebox-14"
+      },
+      "sources": [
+        "seed",
+        "exploitedghetto"
+      ],
+      "resolved": true,
+      "firstSeen": "2026-11-01",
+      "exploitedUrl": "https://exploitedghetto.de/out-today-on-beatport-shir-khan-presents-black-jukebox-14/"
+    },
+    {
+      "title": "Shir Khan Presents Exploited 2015 FFWD RWD",
+      "slug": "shir-khan-presents-exploited-2015-ffwd-rwd",
+      "date": "2015-12-07",
+      "url": "https://shirkhanofficial.bandcamp.com/album/shir-khan-presents-exploited-2015-ffwd-rwd",
+      "cover": "https://f4.bcbits.com/img/a2926984845_16.jpg",
+      "upc": "4050486955499",
+      "stores": {
+        "apple": "https://music.apple.com/album/1078271803",
+        "spotify": "https://open.spotify.com/album/5SOK1Heucd51R2sph6bSnR",
+        "deezer": "https://www.deezer.com/album/62278862",
+        "beatport": "https://www.beatport.com/release/shir-khan-presents-exploited-2015-ffwd-rwd/1628189",
+        "traxsource": "https://www.traxsource.com/title/541052/shir-khan-presents-exploited-2015-ffwd-rwd"
+      },
+      "sources": [
+        "seed",
+        "exploitedghetto"
+      ],
+      "resolved": true,
+      "firstSeen": "2026-11-01",
+      "exploitedUrl": "https://exploitedghetto.de/out-today-on-beatport-shir-khan-presents-exploited-2015-ffwd-rwd/"
+    },
+    {
+      "title": "#EXPLOITED 2014 FFWD RWD",
+      "slug": "exploited-2014-ffwd-rwd",
+      "date": "2014-12-22",
+      "url": "https://shirkhanofficial.bandcamp.com/album/exploited-2014-ffwd-rwd",
+      "cover": "https://f4.bcbits.com/img/a1467986137_16.jpg",
+      "upc": "4050486924693",
+      "stores": {
+        "apple": "https://music.apple.com/album/945627438",
+        "spotify": "https://open.spotify.com/album/7htoDnLA7rpEtZbPcPRp3y",
+        "deezer": "https://www.deezer.com/album/62276372",
+        "beatport": "https://www.beatport.com/release/exploited-2014-ffwd-rwd/1427261",
+        "traxsource": "https://www.traxsource.com/title/415044/exploited-2014-ffwd-rwd"
+      },
+      "sources": [
+        "seed",
+        "apple"
       ],
       "resolved": true,
       "firstSeen": "2026-11-01"
     },
     {
-      "title": "Shir Khan Presents Secret Gold 06",
-      "slug": "shir-khan-presents-secret-gold-06",
-      "date": null,
-      "url": "https://shirkhanofficial.bandcamp.com/album/shir-khan-presents-secret-gold-06",
-      "cover": "https://f4.bcbits.com/img/a1079183322_16.jpg",
-      "upc": "4050486921074",
+      "title": "Shir Khan Presents Secret Gold 04",
+      "slug": "shir-khan-presents-secret-gold-04",
+      "date": "2013-10-22",
+      "url": "https://shirkhanofficial.bandcamp.com/album/shir-khan-presents-secret-gold-04",
+      "cover": "https://f4.bcbits.com/img/a1055565637_16.jpg",
+      "upc": "4050486106341",
       "stores": {
-        "apple": "https://music.apple.com/album/1565809847",
-        "spotify": "https://open.spotify.com/album/03DdFYTPBhoX4YchRU5a1e",
-        "deezer": "https://www.deezer.com/album/62273412",
-        "beatport": "https://www.beatport.com/release/shir-khan-presents-secret-gold-06/1388004",
-        "traxsource": "https://www.traxsource.com/title/390984/shir-khan-presents-secret-gold-06"
+        "apple": "https://music.apple.com/album/1565810267",
+        "spotify": "https://open.spotify.com/album/1npOcYnhRgZmqNyBHbJR1q",
+        "deezer": "https://www.deezer.com/album/62272662",
+        "beatport": "https://www.beatport.com/release/shir-khan-presents-secret-gold-04/1160560",
+        "traxsource": "https://www.traxsource.com/title/251306/shir-khan-presents-secret-gold-04"
+      },
+      "sources": [
+        "seed",
+        "apple"
+      ],
+      "resolved": true,
+      "firstSeen": "2026-11-01"
+    },
+    {
+      "title": "Shir Khan Presents Secret Gold 03",
+      "slug": "shir-khan-presents-secret-gold-03",
+      "date": "2013-04-08",
+      "url": "https://shirkhanofficial.bandcamp.com/album/shir-khan-presents-secret-gold-03",
+      "cover": "https://f4.bcbits.com/img/a3778557056_16.jpg",
+      "upc": "4050486091265",
+      "stores": {
+        "apple": "https://music.apple.com/album/622568168",
+        "spotify": "https://open.spotify.com/album/4puETWFMbfaflvDWaHZl13",
+        "deezer": "https://www.deezer.com/album/62272782",
+        "beatport": "https://www.beatport.com/release/shir-khan-presents-secret-gold-03/1051075",
+        "traxsource": "https://www.traxsource.com/title/212160/shir-khan-presents-secret-gold-03"
+      },
+      "sources": [
+        "seed",
+        "apple"
+      ],
+      "resolved": true,
+      "firstSeen": "2026-11-01"
+    },
+    {
+      "title": "Shir Khan Presents Secret Gold 02",
+      "slug": "shir-khan-presents-secret-gold-02",
+      "date": "2012-10-22",
+      "url": "https://shirkhanofficial.bandcamp.com/album/shir-khan-presents-secret-gold-02",
+      "cover": "https://f4.bcbits.com/img/a3711847183_16.jpg",
+      "upc": "4050486082270",
+      "stores": {
+        "apple": "https://music.apple.com/album/567131636",
+        "spotify": "https://open.spotify.com/album/0iAuKPA1RgzvBnxccqEddY",
+        "deezer": "https://www.deezer.com/album/62274412",
+        "beatport": "https://www.beatport.com/release/secret-gold-02/976898",
+        "traxsource": "https://www.traxsource.com/title/186237/secret-gold-02"
+      },
+      "sources": [
+        "seed",
+        "apple"
+      ],
+      "resolved": true,
+      "firstSeen": "2026-11-01"
+    },
+    {
+      "title": "Shir Khan Presents Secret Gold 01",
+      "slug": "shir-khan-presents-secret-gold-01",
+      "date": null,
+      "url": "https://shirkhanofficial.bandcamp.com/album/shir-khan-presents-secret-gold-01",
+      "cover": "https://f4.bcbits.com/img/a3420537302_16.jpg",
+      "upc": "4050486073438",
+      "stores": {
+        "apple": "https://music.apple.com/album/1434737729",
+        "spotify": "https://open.spotify.com/album/69US5geLlJ6KMnCa3ZaKn6",
+        "deezer": "https://www.deezer.com/album/71971512",
+        "beatport": "https://www.beatport.com/release/secret-gold-01/915090",
+        "traxsource": "https://www.traxsource.com/title/162248/secret-gold-01"
       },
       "sources": [
         "seed"
@@ -583,18 +702,18 @@
       "firstSeen": "2026-11-01"
     },
     {
-      "title": "Shir Khan Presents Secret Gold 04",
-      "slug": "shir-khan-presents-secret-gold-04",
+      "title": "Shir Khan Presents Secret Gold 06",
+      "slug": "shir-khan-presents-secret-gold-06",
       "date": null,
-      "url": "https://shirkhanofficial.bandcamp.com/album/shir-khan-presents-secret-gold-04",
-      "cover": "https://f4.bcbits.com/img/a1055565637_16.jpg",
-      "upc": "4050486106341",
+      "url": "https://shirkhanofficial.bandcamp.com/album/shir-khan-presents-secret-gold-06",
+      "cover": "https://f4.bcbits.com/img/a1079183322_16.jpg",
+      "upc": "4050486921074",
       "stores": {
-        "apple": "https://music.apple.com/album/1565810267",
-        "spotify": "https://open.spotify.com/album/1npOcYnhRgZmqNyBHbJR1q",
-        "deezer": "https://www.deezer.com/album/62272662",
-        "beatport": "https://www.beatport.com/release/shir-khan-presents-secret-gold-04/1160560",
-        "traxsource": "https://www.traxsource.com/title/251306/shir-khan-presents-secret-gold-04"
+        "apple": "https://music.apple.com/album/1565809847",
+        "spotify": "https://open.spotify.com/album/03DdFYTPBhoX4YchRU5a1e",
+        "deezer": "https://www.deezer.com/album/62273412",
+        "beatport": "https://www.beatport.com/release/shir-khan-presents-secret-gold-06/1388004",
+        "traxsource": "https://www.traxsource.com/title/390984/shir-khan-presents-secret-gold-06"
       },
       "sources": [
         "seed"
@@ -603,18 +722,18 @@
       "firstSeen": "2026-11-01"
     },
     {
-      "title": "Shir Khan Presents Secret Gold 03",
-      "slug": "shir-khan-presents-secret-gold-03",
+      "title": "Shir Khan Presents Secret Gold 10",
+      "slug": "shir-khan-presents-secret-gold-10",
       "date": null,
-      "url": "https://shirkhanofficial.bandcamp.com/album/shir-khan-presents-secret-gold-03",
-      "cover": "https://f4.bcbits.com/img/a3778557056_16.jpg",
-      "upc": "4050486091265",
+      "url": "https://shirkhanofficial.bandcamp.com/album/shir-khan-presents-secret-gold-10",
+      "cover": "https://f4.bcbits.com/img/a2887860986_16.jpg",
+      "upc": "192562728987",
       "stores": {
-        "apple": "https://music.apple.com/album/622568168",
-        "spotify": "https://open.spotify.com/album/4puETWFMbfaflvDWaHZl13",
-        "deezer": "https://www.deezer.com/album/62272782",
-        "beatport": "https://www.beatport.com/release/shir-khan-presents-secret-gold-03/1051075",
-        "traxsource": "https://www.traxsource.com/title/212160/shir-khan-presents-secret-gold-03"
+        "apple": "https://music.apple.com/album/1405069867",
+        "spotify": "https://open.spotify.com/album/6BN63ZFWQnLHmxWWSCncJ9",
+        "deezer": "https://www.deezer.com/album/67097162",
+        "beatport": "https://www.beatport.com/release/shir-khan-presents-secret-gold-10/2331556",
+        "traxsource": "https://www.traxsource.com/title/1004322/secret-gold-10"
       },
       "sources": [
         "seed"
@@ -623,18 +742,18 @@
       "firstSeen": "2026-11-01"
     },
     {
-      "title": "Shir Khan Presents Secret Gold 02",
-      "slug": "shir-khan-presents-secret-gold-02",
+      "title": "Shir Khan Presents Secret Gold 11",
+      "slug": "shir-khan-presents-secret-gold-11",
       "date": null,
-      "url": "https://shirkhanofficial.bandcamp.com/album/shir-khan-presents-secret-gold-02",
-      "cover": "https://f4.bcbits.com/img/a3711847183_16.jpg",
-      "upc": "4050486082270",
+      "url": "https://shirkhanofficial.bandcamp.com/album/shir-khan-presents-secret-gold-11",
+      "cover": "https://f4.bcbits.com/img/a2148836259_16.jpg",
+      "upc": "193483855639",
       "stores": {
-        "apple": "https://music.apple.com/album/567131636",
-        "spotify": "https://open.spotify.com/album/0iAuKPA1RgzvBnxccqEddY",
-        "deezer": "https://www.deezer.com/album/62274412",
-        "beatport": "https://www.beatport.com/release/secret-gold-02/976898",
-        "traxsource": "https://www.traxsource.com/title/186237/secret-gold-02"
+        "apple": "https://music.apple.com/album/1470443337",
+        "spotify": "https://open.spotify.com/album/1o3jDLWTAfhoWhFQX7VLrm",
+        "deezer": "https://www.deezer.com/album/101761862",
+        "beatport": "https://www.beatport.com/release/shir-khan-presents-secret-gold-11/2595879",
+        "traxsource": null
       },
       "sources": [
         "seed"
@@ -643,98 +762,18 @@
       "firstSeen": "2026-11-01"
     },
     {
-      "title": "Shir Khan Presents Secret Gold 01",
-      "slug": "shir-khan-presents-secret-gold-01",
+      "title": "Shir Khan Presents Secret Gold 12",
+      "slug": "shir-khan-presents-secret-gold-12",
       "date": null,
-      "url": "https://shirkhanofficial.bandcamp.com/album/shir-khan-presents-secret-gold-01",
-      "cover": "https://f4.bcbits.com/img/a3420537302_16.jpg",
-      "upc": "4050486073438",
+      "url": "https://shirkhanofficial.bandcamp.com/album/shir-khan-presents-secret-gold-12",
+      "cover": "https://f4.bcbits.com/img/a3039855985_16.jpg",
+      "upc": "195081190969",
       "stores": {
-        "apple": "https://music.apple.com/album/1434737729",
-        "spotify": "https://open.spotify.com/album/69US5geLlJ6KMnCa3ZaKn6",
-        "deezer": "https://www.deezer.com/album/71971512",
-        "beatport": "https://www.beatport.com/release/secret-gold-01/915090",
-        "traxsource": "https://www.traxsource.com/title/162248/secret-gold-01"
-      },
-      "sources": [
-        "seed"
-      ],
-      "resolved": true,
-      "firstSeen": "2026-11-01"
-    },
-    {
-      "title": "Shir Khan Presents Black Jukebox 16",
-      "slug": "shir-khan-presents-black-jukebox-16",
-      "date": null,
-      "url": "https://shirkhanofficial.bandcamp.com/album/shir-khan-presents-black-jukebox-16",
-      "cover": "https://f4.bcbits.com/img/a2605030781_16.jpg",
-      "upc": "4050486972007",
-      "stores": {
-        "apple": "https://music.apple.com/album/1565837993",
-        "spotify": "https://open.spotify.com/album/3OV7xnJZYOmRh56rwoWk7p",
-        "deezer": "https://www.deezer.com/album/62296902",
-        "beatport": "https://www.beatport.com/release/shir-khan-presents-black-jukebox-16/1838041",
-        "traxsource": "https://www.traxsource.com/title/681500/shir-khan-presents-black-jukebox-16"
-      },
-      "sources": [
-        "seed"
-      ],
-      "resolved": true,
-      "firstSeen": "2026-11-01"
-    },
-    {
-      "title": "Shir Khan Presents Black Jukebox 14",
-      "slug": "shir-khan-presents-black-jukebox-14",
-      "date": null,
-      "url": "https://shirkhanofficial.bandcamp.com/album/shir-khan-presents-black-jukebox-14",
-      "cover": "https://f4.bcbits.com/img/a2932306678_16.jpg",
-      "upc": "4050486957738",
-      "stores": {
-        "apple": "https://music.apple.com/album/1566008662",
-        "spotify": "https://open.spotify.com/album/320IHwU8ewuveZZTGfz8Tr",
-        "deezer": "https://www.deezer.com/album/62275742",
-        "beatport": "https://www.beatport.com/release/shir-khan-presents-black-jukebox-14/1714344",
-        "traxsource": "https://www.traxsource.com/title/595605/shir-khan-presents-black-jukebox-14"
-      },
-      "sources": [
-        "seed"
-      ],
-      "resolved": true,
-      "firstSeen": "2026-11-01"
-    },
-    {
-      "title": "Shir Khan Presents Exploited 2015 FFWD RWD",
-      "slug": "shir-khan-presents-exploited-2015-ffwd-rwd",
-      "date": null,
-      "url": "https://shirkhanofficial.bandcamp.com/album/shir-khan-presents-exploited-2015-ffwd-rwd",
-      "cover": "https://f4.bcbits.com/img/a2926984845_16.jpg",
-      "upc": "4050486955499",
-      "stores": {
-        "apple": "https://music.apple.com/album/1078271803",
-        "spotify": "https://open.spotify.com/album/5SOK1Heucd51R2sph6bSnR",
-        "deezer": "https://www.deezer.com/album/62278862",
-        "beatport": "https://www.beatport.com/release/shir-khan-presents-exploited-2015-ffwd-rwd/1628189",
-        "traxsource": "https://www.traxsource.com/title/541052/shir-khan-presents-exploited-2015-ffwd-rwd"
-      },
-      "sources": [
-        "seed"
-      ],
-      "resolved": true,
-      "firstSeen": "2026-11-01"
-    },
-    {
-      "title": "#EXPLOITED 2014 FFWD RWD",
-      "slug": "exploited-2014-ffwd-rwd",
-      "date": null,
-      "url": "https://shirkhanofficial.bandcamp.com/album/exploited-2014-ffwd-rwd",
-      "cover": "https://f4.bcbits.com/img/a1467986137_16.jpg",
-      "upc": "4050486924693",
-      "stores": {
-        "apple": "https://music.apple.com/album/945627438",
-        "spotify": "https://open.spotify.com/album/7htoDnLA7rpEtZbPcPRp3y",
-        "deezer": "https://www.deezer.com/album/62276372",
-        "beatport": "https://www.beatport.com/release/exploited-2014-ffwd-rwd/1427261",
-        "traxsource": "https://www.traxsource.com/title/415044/exploited-2014-ffwd-rwd"
+        "apple": "https://music.apple.com/album/1506475869",
+        "spotify": "https://open.spotify.com/album/4R2tmkCYG4Z1sFfRTe5Xdy",
+        "deezer": "https://www.deezer.com/album/140169342",
+        "beatport": "https://www.beatport.com/release/shir-khan-presents-secret-gold-12/2922651",
+        "traxsource": "https://www.traxsource.com/title/1328451/shir-khan-presents-secret-gold-12"
       },
       "sources": [
         "seed"
