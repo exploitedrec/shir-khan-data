@@ -1,0 +1,276 @@
+{
+ "bj01": [
+  {
+   "id": 1565837922,
+   "name": "Shir Khan Presents Black Jukebox 01 - Single",
+   "artist": "Shir Khan",
+   "label": "℗ 2011 Dru, Doctor; Twins, Adana",
+   "country": "us"
+  },
+  {
+   "id": 1350400852,
+   "name": "Shir Khan Presents Black Jukebox Disco Jam 01",
+   "artist": "Various Artists",
+   "label": "℗ 2015 Exploited",
+   "country": "us"
+  },
+  {
+   "id": 1078270003,
+   "name": "Shir Khan Presents Black Jukebox Disco Jam 01",
+   "artist": "Various Artists",
+   "label": "℗ 2015 Exploited",
+   "country": "us"
+  },
+  {
+   "id": 1702936821,
+   "name": "Songs from The Spectral Silhouette Radio Show, Vol. 1 (feat. Colleen Wild & Jukebox JBC)",
+   "artist": "The Black & Blue Hearts",
+   "label": "℗ 2023 The Black & Blue Hearts",
+   "country": "us"
+  }
+ ],
+ "bj02": [
+  {
+   "id": 1482164759,
+   "name": "Shir Khan Presents Black Jukebox Disco Jam 02",
+   "artist": "Various Artists",
+   "label": "℗ 2019 Exploited",
+   "country": "us"
+  },
+  {
+   "id": 1565837922,
+   "name": "Shir Khan Presents Black Jukebox 01 - Single",
+   "artist": "Shir Khan",
+   "label": "℗ 2011 Dru, Doctor; Twins, Adana",
+   "country": "us"
+  },
+  {
+   "id": 1350400852,
+   "name": "Shir Khan Presents Black Jukebox Disco Jam 01",
+   "artist": "Various Artists",
+   "label": "℗ 2015 Exploited",
+   "country": "us"
+  },
+  {
+   "id": 1078270003,
+   "name": "Shir Khan Presents Black Jukebox Disco Jam 01",
+   "artist": "Various Artists",
+   "label": "℗ 2015 Exploited",
+   "country": "us"
+  }
+ ],
+ "bj03": [
+  {
+   "id": 1565837922,
+   "name": "Shir Khan Presents Black Jukebox 01 - Single",
+   "artist": "Shir Khan",
+   "label": "℗ 2011 Dru, Doctor; Twins, Adana",
+   "country": "us"
+  },
+  {
+   "id": 1350400852,
+   "name": "Shir Khan Presents Black Jukebox Disco Jam 01",
+   "artist": "Various Artists",
+   "label": "℗ 2015 Exploited",
+   "country": "us"
+  },
+  {
+   "id": 1078270003,
+   "name": "Shir Khan Presents Black Jukebox Disco Jam 01",
+   "artist": "Various Artists",
+   "label": "℗ 2015 Exploited",
+   "country": "us"
+  }
+ ],
+ "bj04": [
+  {
+   "id": 565097306,
+   "name": "Black Jukebox 05 - EP",
+   "artist": "Various Artists",
+   "label": "℗ 2012 Exploited",
+   "country": "us"
+  },
+  {
+   "id": 1565838184,
+   "name": "Shir Khan Presents Black Jukebox 05 - EP",
+   "artist": "Shir Khan",
+   "label": "℗ 2012 Exploited",
+   "country": "us"
+  },
+  {
+   "id": 1565837922,
+   "name": "Shir Khan Presents Black Jukebox 01 - Single",
+   "artist": "Shir Khan",
+   "label": "℗ 2011 Dru, Doctor; Twins, Adana",
+   "country": "de"
+  },
+  {
+   "id": 1350400852,
+   "name": "Shir Khan Presents Black Jukebox Disco Jam 01",
+   "artist": "Verschiedene Interpret:innen",
+   "label": "℗ 2015 Exploited",
+   "country": "de"
+  },
+  {
+   "id": 1078270003,
+   "name": "Shir Khan Presents Black Jukebox Disco Jam 01",
+   "artist": "Verschiedene Interpret:innen",
+   "label": "℗ 2015 Exploited",
+   "country": "de"
+  }
+ ],
+ "bj17": [
+  {
+   "id": 1565837922,
+   "name": "Shir Khan Presents Black Jukebox 01 - Single",
+   "artist": "Shir Khan",
+   "label": "℗ 2011 Dru, Doctor; Twins, Adana",
+   "country": "de"
+  },
+  {
+   "id": 1350400852,
+   "name": "Shir Khan Presents Black Jukebox Disco Jam 01",
+   "artist": "Verschiedene Interpret:innen",
+   "label": "℗ 2015 Exploited",
+   "country": "de"
+  },
+  {
+   "id": 1078270003,
+   "name": "Shir Khan Presents Black Jukebox Disco Jam 01",
+   "artist": "Verschiedene Interpret:innen",
+   "label": "℗ 2015 Exploited",
+   "country": "de"
+  }
+ ],
+ "bj25": [
+  {
+   "id": 565097306,
+   "name": "Black Jukebox 05 - EP",
+   "artist": "Verschiedene Interpret:innen",
+   "label": "℗ 2012 Exploited",
+   "country": "de"
+  },
+  {
+   "id": 1565838184,
+   "name": "Shir Khan Presents Black Jukebox 05 - EP",
+   "artist": "Shir Khan",
+   "label": "℗ 2012 Exploited",
+   "country": "de"
+  }
+ ],
+ "exp": [
+  {
+   "id": 1566044441,
+   "name": "Shir Khan Presents Exploited",
+   "artist": "Shir Khan",
+   "label": "℗ 2009 Exploited",
+   "country": "us"
+  },
+  {
+   "id": 1565810452,
+   "name": "Shir Khan Presents Exploited Ghetto Trax, Vol. 2",
+   "artist": "Shir Khan",
+   "label": "℗ 2016 Exploited",
+   "country": "us"
+  },
+  {
+   "id": 1437378446,
+   "name": "Shir Khan Presents Exploited Ghetto Trax, Vol. 4",
+   "artist": "Shir Khan",
+   "label": "℗ 2018 Exploited",
+   "country": "us"
+  },
+  {
+   "id": 1595856840,
+   "name": "Shir Khan Presents Exploited Club Trax Vol. 07",
+   "artist": "Shir Khan",
+   "label": "℗ 2021 Exploited",
+   "country": "us"
+  },
+  {
+   "id": 1486167281,
+   "name": "Shir Khan Presents Exploited 2019 Ffwd Rwd",
+   "artist": "Shir Khan",
+   "label": "℗ 2019 Exploited Ghetto",
+   "country": "us"
+  },
+  {
+   "id": 1437384075,
+   "name": "Shir Khan Presents Exploited 2018 Ffwd Rwd",
+   "artist": "Shir Khan",
+   "label": "℗ 2018 Exploited",
+   "country": "us"
+  },
+  {
+   "id": 1656063777,
+   "name": "Shir Khan Presents Exploited Cub Trax, Vol. 08",
+   "artist": "Shir Khan",
+   "label": "℗ 2022 Exploited",
+   "country": "us"
+  },
+  {
+   "id": 1565839660,
+   "name": "Shir Khan Presents Exploited 2016 Ffwd Rwd",
+   "artist": "Shir Khan",
+   "label": "℗ 2016 Exploited",
+   "country": "us"
+  },
+  {
+   "id": 1565839679,
+   "name": "Shir Khan Presents Exploited 2017 Ffwd Rwd",
+   "artist": "Shir Khan",
+   "label": "℗ 2017 Exploited",
+   "country": "us"
+  },
+  {
+   "id": 1486169197,
+   "name": "Shir Khan Presents Exploited Ghetto Trax Vol. 5",
+   "artist": "Shir Khan",
+   "label": "℗ 2019 Exploited",
+   "country": "us"
+  },
+  {
+   "id": 1565810213,
+   "name": "Shir Khan Presents Exploited Ghetto Trax, Vol. 3",
+   "artist": "Shir Khan",
+   "label": "℗ 2017 Exploited",
+   "country": "us"
+  },
+  {
+   "id": 1078271803,
+   "name": "Shir Khan Presents Exploited 2015 FFWD RWD",
+   "artist": "Various Artists",
+   "label": "℗ 2015 Exploited",
+   "country": "us"
+  },
+  {
+   "id": 1043538368,
+   "name": "Shir Khan Presents Exploited Ghetto Trax, Vol. 1",
+   "artist": "Various Artists",
+   "label": "℗ 2015 Exploited",
+   "country": "us"
+  },
+  {
+   "id": 1566027429,
+   "name": "#Exploited 2014 Ffwd Rwd",
+   "artist": "Shir Khan",
+   "label": "℗ 2014 Exploited",
+   "country": "us"
+  },
+  {
+   "id": 1537789061,
+   "name": "Shir Khan Presents Exploited Ghetto Trax Vol. 06",
+   "artist": "Various Artists",
+   "label": "℗ 2020 Exploited",
+   "country": "us"
+  },
+  {
+   "id": 1565205459,
+   "name": "10 Years Exploited",
+   "artist": "Shir Khan",
+   "label": "℗ 2017 Exploited",
+   "country": "us"
+  }
+ ],
+ "max": []
+}
