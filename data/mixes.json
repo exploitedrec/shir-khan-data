@@ -1,0 +1,374 @@
+{
+  "updated": "2026-11-01T00:00:00.000Z",
+  "count": 46,
+  "mixes": [
+    {
+      "title": "World On A Wire With Shir Khan: Jul 10, 2026 (DJ Mix)",
+      "date": "2026-07-10",
+      "collectionId": "6790550355",
+      "path": "world-on-a-wire-with-shir-khan-jul-10-2026-dj-mix/6790550355",
+      "url": "https://music.apple.com/album/world-on-a-wire-with-shir-khan-jul-10-2026-dj-mix/6790550355",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/97/7c/54/977c5411-e709-62c8-ae87-14f4006921d6/80fbc46f-cc4f-4214-8faa-4df64734f574.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "World On A Wire With Shir Khan: Jun 12, 2026 (DJ Mix)",
+      "date": "2026-06-12",
+      "collectionId": "6781430414",
+      "path": "world-on-a-wire-with-shir-khan-jun-12-2026-dj-mix/6781430414",
+      "url": "https://music.apple.com/album/world-on-a-wire-with-shir-khan-jun-12-2026-dj-mix/6781430414",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ed/18/fe/ed18fe2c-195b-c8f4-d52a-df4601996763/489e3bc5-566f-4607-9798-5ecd11ea21e5.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "World On A Wire With Shir Khan: May 8, 2026 (DJ Mix)",
+      "date": "2026-05-08",
+      "collectionId": "6769209362",
+      "path": "world-on-a-wire-with-shir-khan-may-8-2026-dj-mix/6769209362",
+      "url": "https://music.apple.com/album/world-on-a-wire-with-shir-khan-may-8-2026-dj-mix/6769209362",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/ac/de/75acde03-b7eb-530d-40e3-80737df64e89/9bde2f44-11ae-48d8-9be3-f104f7627057.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "World On A Wire With Shir Khan: Apr 10, 2026 (DJ Mix)",
+      "date": "2026-04-10",
+      "collectionId": "1894918817",
+      "path": "world-on-a-wire-with-shir-khan-apr-10-2026-dj-mix/1894918817",
+      "url": "https://music.apple.com/album/world-on-a-wire-with-shir-khan-apr-10-2026-dj-mix/1894918817",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/12/09/70/1209700e-f54b-b9f3-4a69-e6d9d4090ae7/7a814da8-90bd-4e8b-9b7f-d196214e6153.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "World On A Wire With Shir Khan: Jan 9, 2026 (DJ Mix)",
+      "date": "2026-01-09",
+      "collectionId": "1876606872",
+      "path": "world-on-a-wire-with-shir-khan-jan-9-2026-dj-mix/1876606872",
+      "url": "https://music.apple.com/album/world-on-a-wire-with-shir-khan-jan-9-2026-dj-mix/1876606872",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e8/05/73/e8057367-2eb9-c148-30e5-b30b4ca35bb3/a166e6dd-240d-4150-9ea0-598c9bc4f7a8.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "World On A Wire With Shir Khan: Jul 11, 2025 (DJ Mix)",
+      "date": "2025-07-11",
+      "collectionId": "1826892603",
+      "path": "world-on-a-wire-with-shir-khan-jul-11-2025-dj-mix/1826892603",
+      "url": "https://music.apple.com/album/world-on-a-wire-with-shir-khan-jul-11-2025-dj-mix/1826892603",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ca/42/5c/ca425cd8-b972-34d9-7c84-5185129a0980/e347d81b-9ada-44ee-a6e5-8437cf7cf60c.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "World On A Wire With Shir Khan: Jun 13, 2025 (DJ Mix)",
+      "date": "2025-06-13",
+      "collectionId": "1825881730",
+      "path": "world-on-a-wire-with-shir-khan-jun-13-2025-dj-mix/1825881730",
+      "url": "https://music.apple.com/album/world-on-a-wire-with-shir-khan-jun-13-2025-dj-mix/1825881730",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ab/e8/18/abe818f6-2d24-da8b-3aa3-196a1ca96c82/697353ec-f376-4158-9c48-7160cc925708.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "World On A Wire With Shir Khan: Apr 11, 2025 (DJ Mix)",
+      "date": "2025-04-11",
+      "collectionId": "1809209730",
+      "path": "world-on-a-wire-with-shir-khan-apr-11-2025-dj-mix/1809209730",
+      "url": "https://music.apple.com/album/world-on-a-wire-with-shir-khan-apr-11-2025-dj-mix/1809209730",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/14/fc/bd/14fcbd05-ff54-860f-9aca-b41374ed2409/3ced6c77-c9b6-4efc-b29e-3a72ba4cd335.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Shir Khan at Beam Cube Bangkok, Mar 21, 2025 (DJ Mix)",
+      "date": "2025-03-21",
+      "collectionId": "1812964790",
+      "path": "shir-khan-at-beam-cube-bangkok-mar-21-2025-dj-mix/1812964790",
+      "url": "https://music.apple.com/album/shir-khan-at-beam-cube-bangkok-mar-21-2025-dj-mix/1812964790",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/90/7e/43/907e431c-e884-3f53-0405-99e0af292d3d/f03e2bf3-3731-422e-aed6-4c53580a8424.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "World On A Wire With Shir Khan: Mar 14, 2025 (DJ Mix)",
+      "date": "2025-03-14",
+      "collectionId": "1803721491",
+      "path": "world-on-a-wire-with-shir-khan-mar-14-2025-dj-mix/1803721491",
+      "url": "https://music.apple.com/album/world-on-a-wire-with-shir-khan-mar-14-2025-dj-mix/1803721491",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/97/23/8e/97238e48-dcbd-9e53-c6c8-b820404b70c8/8552c46e-c884-4e50-887d-77f38275aec8.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "World On A Wire With Shir Khan: Feb 28, 2025 (DJ Mix)",
+      "date": "2025-02-28",
+      "collectionId": "1800283632",
+      "path": "world-on-a-wire-with-shir-khan-feb-28-2025-dj-mix/1800283632",
+      "url": "https://music.apple.com/album/world-on-a-wire-with-shir-khan-feb-28-2025-dj-mix/1800283632",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/14/cf/7a/14cf7a5a-fd4e-3e68-cb05-aa00eee64859/e39044f4-af14-4c79-8e5d-86b431feeeb6.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "World On A Wire With Shir Khan: Jan 15, 2025 (DJ Mix)",
+      "date": "2025-01-15",
+      "collectionId": "1794373253",
+      "path": "world-on-a-wire-with-shir-khan-jan-15-2025-dj-mix/1794373253",
+      "url": "https://music.apple.com/album/world-on-a-wire-with-shir-khan-jan-15-2025-dj-mix/1794373253",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c1/51/fa/c151fa28-1d8f-59ea-159a-c46bb9796b03/7fd4d128-7b2f-4d6d-a8c9-11e3944cb440.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "World On A Wire With Shir Khan: Dec 11, 2024 (DJ Mix)",
+      "date": "2024-12-11",
+      "collectionId": "1783384377",
+      "path": "world-on-a-wire-with-shir-khan-dec-11-2024-dj-mix/1783384377",
+      "url": "https://music.apple.com/album/world-on-a-wire-with-shir-khan-dec-11-2024-dj-mix/1783384377",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4f/18/e5/4f18e5a8-902d-b4db-ce47-207b8630d0cf/5d23de75-1237-41f7-8048-9fedb6067103.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "World On A Wire With Shir Khan: Aug 14, 2024 (DJ Mix)",
+      "date": "2024-08-14",
+      "collectionId": "1765194437",
+      "path": "world-on-a-wire-with-shir-khan-aug-14-2024-dj-mix/1765194437",
+      "url": "https://music.apple.com/album/world-on-a-wire-with-shir-khan-aug-14-2024-dj-mix/1765194437",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/17/89/6b/17896bf7-d05d-0c1c-9f69-9bd53666b5ed/47eae82b-8781-4b00-b9f3-bbac431f81c4.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "World On A Wire With Shir Khan: July 10, 2024 (DJ Mix)",
+      "date": "2024-07-10",
+      "collectionId": "1757889665",
+      "path": "world-on-a-wire-with-shir-khan-july-10-2024-dj-mix/1757889665",
+      "url": "https://music.apple.com/album/world-on-a-wire-with-shir-khan-july-10-2024-dj-mix/1757889665",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d3/95/ef/d395ef5c-ce00-b296-88c8-08193b339e47/712b7d4a-2901-4ef1-b3ea-3f793c979dc3.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "World On A Wire With Shir Khan: Jun 7, 2024 (DJ Mix)",
+      "date": "2024-06-07",
+      "collectionId": "1751371801",
+      "path": "world-on-a-wire-with-shir-khan-jun-7-2024-dj-mix/1751371801",
+      "url": "https://music.apple.com/album/world-on-a-wire-with-shir-khan-jun-7-2024-dj-mix/1751371801",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f9/0f/2f/f90f2f0b-4a8c-db92-8c45-1dca625a4aea/d31b3718-efe1-4905-98f6-e5371540c402.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "World On A Wire With Shir Khan: May 7, 2024 (DJ Mix)",
+      "date": "2024-05-07",
+      "collectionId": "1745551670",
+      "path": "world-on-a-wire-with-shir-khan-may-7-2024-dj-mix/1745551670",
+      "url": "https://music.apple.com/album/world-on-a-wire-with-shir-khan-may-7-2024-dj-mix/1745551670",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b2/c4/58/b2c458a0-7a9a-2de8-1ed3-65cc66fafcc3/67708c4a-fba8-4cd1-a854-c4fd3d5d67df.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "World On A Wire With Shir Khan: Apr 5, 2024 (DJ Mix)",
+      "date": "2024-04-05",
+      "collectionId": "1741358094",
+      "path": "world-on-a-wire-with-shir-khan-apr-5-2024-dj-mix/1741358094",
+      "url": "https://music.apple.com/album/world-on-a-wire-with-shir-khan-apr-5-2024-dj-mix/1741358094",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/28/d3/ab/28d3abc0-0847-27c2-3c58-4b2507ce3693/91936a38-54bd-4569-aad9-3d1073bca910.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "World On A Wire With Shir Khan: Mar 8, 2024 (DJ Mix)",
+      "date": "2024-03-08",
+      "collectionId": "1735374500",
+      "path": "world-on-a-wire-with-shir-khan-mar-8-2024-dj-mix/1735374500",
+      "url": "https://music.apple.com/album/world-on-a-wire-with-shir-khan-mar-8-2024-dj-mix/1735374500",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b0/6b/90/b06b90e4-1ba3-2eb5-bbab-d2bc6e0e5017/3450b5fc-94fa-4340-b572-b7010b863ad7.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "World On A Wire With Shir Khan: Jan 26, 2024 (DJ Mix)",
+      "date": "2024-01-26",
+      "collectionId": "1728911179",
+      "path": "world-on-a-wire-with-shir-khan-jan-26-2024-dj-mix/1728911179",
+      "url": "https://music.apple.com/album/world-on-a-wire-with-shir-khan-jan-26-2024-dj-mix/1728911179",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/74/f8/52/74f85212-59eb-7e88-2083-9176d9c08863/c73183d6-3def-4942-bce2-59e593757159.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "World On A Wire With Shir Khan: Jan 11, 2024 (DJ Mix)",
+      "date": "2024-01-11",
+      "collectionId": "1729233988",
+      "path": "world-on-a-wire-with-shir-khan-jan-11-2024-dj-mix/1729233988",
+      "url": "https://music.apple.com/album/world-on-a-wire-with-shir-khan-jan-11-2024-dj-mix/1729233988",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/bf/9b/16/bf9b161e-038f-1db9-ec42-89c6e61b71b0/8f46a8bb-4dda-42e4-bdd4-fae2baa5922e.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "EXPLOITED Radio: Shir Khan (DJ Mix)",
+      "date": "2023-12-29",
+      "collectionId": "1722706392",
+      "path": "exploited-radio-shir-khan-dj-mix/1722706392",
+      "url": "https://music.apple.com/album/exploited-radio-shir-khan-dj-mix/1722706392",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/1c/62/39/1c623933-6412-e3fd-f836-8a8a0ca59452/8c72e178-50d4-4584-816e-ebbd0467e95f.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "World On A Wire With Shir Khan: Dec, 10, 2023 (DJ Mix)",
+      "date": "2023-12-10",
+      "collectionId": "1730080512",
+      "path": "world-on-a-wire-with-shir-khan-dec-10-2023-dj-mix/1730080512",
+      "url": "https://music.apple.com/album/world-on-a-wire-with-shir-khan-dec-10-2023-dj-mix/1730080512",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/ea/4b/2e/ea4b2e09-f433-45b4-69a3-1fea2764d77c/1e64ce1c-1f2f-4231-87b1-31157c298342.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "World On A Wire With Shir Khan: Nov 12, 2023 (DJ Mix)",
+      "date": "2023-11-12",
+      "collectionId": "1727633157",
+      "path": "world-on-a-wire-with-shir-khan-nov-12-2023-dj-mix/1727633157",
+      "url": "https://music.apple.com/album/world-on-a-wire-with-shir-khan-nov-12-2023-dj-mix/1727633157",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/0a/fd/af/0afdaf0c-92d7-7254-d608-60df72cde925/3d80e6ec-f65e-4cf4-ab5e-f38cc893c444.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "World On A Wire With Shir Khan: Oct 15, 2023 (DJ Mix)",
+      "date": "2023-10-15",
+      "collectionId": "1727800108",
+      "path": "world-on-a-wire-with-shir-khan-oct-15-2023-dj-mix/1727800108",
+      "url": "https://music.apple.com/album/world-on-a-wire-with-shir-khan-oct-15-2023-dj-mix/1727800108",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/60/36/fc/6036fc42-db78-f8b4-e16e-47cde10317bb/e2e91731-7803-4e97-b673-d19e5ece54d7.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "World On A Wire With Shir Khan: Aug 26, 2023 (DJ Mix)",
+      "date": "2023-08-26",
+      "collectionId": "1727598898",
+      "path": "world-on-a-wire-with-shir-khan-aug-26-2023-dj-mix/1727598898",
+      "url": "https://music.apple.com/album/world-on-a-wire-with-shir-khan-aug-26-2023-dj-mix/1727598898",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ac/2e/5b/ac2e5b1a-dda8-4e18-de75-9f5a2a272bc1/360e6b92-e84a-46c7-8a73-2f2236b10b83.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Shir Khan at Pacha Ibiza, Aug 19, 2023 (DJ Mix)",
+      "date": "2023-08-19",
+      "collectionId": "1765218120",
+      "path": "shir-khan-at-pacha-ibiza-aug-19-2023-dj-mix/1765218120",
+      "url": "https://music.apple.com/album/shir-khan-at-pacha-ibiza-aug-19-2023-dj-mix/1765218120",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/06/a7/38/06a73888-3656-6727-1088-38dc3b248548/4bac7883-6019-48bc-a44e-0169473c7c79.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "World On A Wire With Shir Khan: May 27, 2023 (DJ Mix)",
+      "date": "2023-05-27",
+      "collectionId": "1729252306",
+      "path": "world-on-a-wire-with-shir-khan-may-27-2023-dj-mix/1729252306",
+      "url": "https://music.apple.com/album/world-on-a-wire-with-shir-khan-may-27-2023-dj-mix/1729252306",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/42/63/82/42638257-6f1b-45a1-3dbf-135cb80a90c7/fdd78a30-b283-46a5-ac32-4f20ffc68e84.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "World On A Wire With Shir Khan: Apr 29, 2023 (DJ Mix)",
+      "date": "2023-04-29",
+      "collectionId": "1728957183",
+      "path": "world-on-a-wire-with-shir-khan-apr-29-2023-dj-mix/1728957183",
+      "url": "https://music.apple.com/album/world-on-a-wire-with-shir-khan-apr-29-2023-dj-mix/1728957183",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/33/f5/04/33f504cf-85f4-feaf-ead6-126f2fc25400/f7f480e3-96c7-481d-8881-053de14be43d.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "World On A Wire With Shir Khan: Mar 25, 2023 (DJ Mix)",
+      "date": "2023-03-25",
+      "collectionId": "1730109499",
+      "path": "world-on-a-wire-with-shir-khan-mar-25-2023-dj-mix/1730109499",
+      "url": "https://music.apple.com/album/world-on-a-wire-with-shir-khan-mar-25-2023-dj-mix/1730109499",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ed/56/e1/ed56e195-0795-db5c-ce47-5acb90a82352/5ad0f120-22a3-49e0-86fb-2fdaf14747f5.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "World On A Wire With Shir Khan: Feb 25, 2023 (DJ Mix)",
+      "date": "2023-02-25",
+      "collectionId": "1728952049",
+      "path": "world-on-a-wire-with-shir-khan-feb-25-2023-dj-mix/1728952049",
+      "url": "https://music.apple.com/album/world-on-a-wire-with-shir-khan-feb-25-2023-dj-mix/1728952049",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/26/84/59/26845962-c673-422d-bb8d-ba6763f580c2/7dcc7f78-bcb2-4827-9be2-c60bff9b28ab.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "World On A Wire With Shir Khan: Jan 28, 2023 (DJ Mix)",
+      "date": "2023-01-28",
+      "collectionId": "1728909982",
+      "path": "world-on-a-wire-with-shir-khan-jan-28-2023-dj-mix/1728909982",
+      "url": "https://music.apple.com/album/world-on-a-wire-with-shir-khan-jan-28-2023-dj-mix/1728909982",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/da/0d/02/da0d026e-31a4-1b30-cde5-3114c2dcf77f/59f95d9a-521a-4809-9eba-4bbb6211ba7b.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "World On A Wire With Shir Khan: Nov 26, 2022 (DJ Mix)",
+      "date": "2022-11-26",
+      "collectionId": "1728774219",
+      "path": "world-on-a-wire-with-shir-khan-nov-26-2022-dj-mix/1728774219",
+      "url": "https://music.apple.com/album/world-on-a-wire-with-shir-khan-nov-26-2022-dj-mix/1728774219",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ed/43/e3/ed43e310-15f4-1c1c-7e0c-7229887b111c/59a35e3c-fdaa-4e98-afd8-a3c102547fc7.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "World On A Wire With Shir Khan: Oct 29, 2022 (DJ Mix)",
+      "date": "2022-10-29",
+      "collectionId": "1728955527",
+      "path": "world-on-a-wire-with-shir-khan-oct-29-2022-dj-mix/1728955527",
+      "url": "https://music.apple.com/album/world-on-a-wire-with-shir-khan-oct-29-2022-dj-mix/1728955527",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/78/18/79/781879f8-ccbf-a835-d0f1-1dd5e5eb568b/60368158-0e35-4954-b0bc-36a7147b2f16.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "World On A Wire With Shir Khan: Oct 01, 2022 (DJ Mix)",
+      "date": "2022-10-01",
+      "collectionId": "1731472109",
+      "path": "world-on-a-wire-with-shir-khan-oct-01-2022-dj-mix/1731472109",
+      "url": "https://music.apple.com/album/world-on-a-wire-with-shir-khan-oct-01-2022-dj-mix/1731472109",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/84/6d/41/846d4115-4ed1-e71c-2e2a-17925c74250c/4cbbdf69-558a-45c3-9e7d-58f5d05494bc.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "World On A Wire With Shir Khan: Aug 27, 2022 (DJ Mix)",
+      "date": "2022-08-27",
+      "collectionId": "1729231293",
+      "path": "world-on-a-wire-with-shir-khan-aug-27-2022-dj-mix/1729231293",
+      "url": "https://music.apple.com/album/world-on-a-wire-with-shir-khan-aug-27-2022-dj-mix/1729231293",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a4/5c/7e/a45c7e26-8446-ee41-813d-836b5acd27b3/dfee00d3-5897-4318-9329-8227a597e28f.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "World On A Wire With Shir Khan: Jul 30, 2022 (DJ Mix)",
+      "date": "2022-07-30",
+      "collectionId": "1731215066",
+      "path": "world-on-a-wire-with-shir-khan-jul-30-2022-dj-mix/1731215066",
+      "url": "https://music.apple.com/album/world-on-a-wire-with-shir-khan-jul-30-2022-dj-mix/1731215066",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/2c/0d/91/2c0d911b-78d7-b0f2-378d-5afe92dbfe6e/b8cfeb9f-abe2-4d04-be7d-77ca05f57bb5.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "World On A Wire With Shir Khan: Jun 25, 2022 (DJ Mix)",
+      "date": "2022-06-25",
+      "collectionId": "1727636778",
+      "path": "world-on-a-wire-with-shir-khan-jun-25-2022-dj-mix/1727636778",
+      "url": "https://music.apple.com/album/world-on-a-wire-with-shir-khan-jun-25-2022-dj-mix/1727636778",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e6/b6/d4/e6b6d4df-7e39-2a04-1427-83682401f93e/089ad48d-51ae-4e39-a6ff-3d738551cb3c.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "World On A Wire With Shir Khan: May 28, 2022 (DJ Mix)",
+      "date": "2022-05-28",
+      "collectionId": "1727796145",
+      "path": "world-on-a-wire-with-shir-khan-may-28-2022-dj-mix/1727796145",
+      "url": "https://music.apple.com/album/world-on-a-wire-with-shir-khan-may-28-2022-dj-mix/1727796145",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d4/65/c1/d465c1c3-6fd1-2aee-445c-d496d2f940bc/802f9cb4-549b-4f67-bd00-224df9a777bb.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "World On A Wire With Shir Khan: Apr 30, 2022 (DJ Mix)",
+      "date": "2022-04-30",
+      "collectionId": "1729244473",
+      "path": "world-on-a-wire-with-shir-khan-apr-30-2022-dj-mix/1729244473",
+      "url": "https://music.apple.com/album/world-on-a-wire-with-shir-khan-apr-30-2022-dj-mix/1729244473",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/16/ca/fc/16cafcdf-3c44-b06d-1ec4-aa39893fe797/2bc88464-5521-4995-a85b-31640db8f8d4.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "World On A Wire With Shir Khan: Mar, 26, 2022 (DJ Mix)",
+      "date": "2022-03-26",
+      "collectionId": "1729914968",
+      "path": "world-on-a-wire-with-shir-khan-mar-26-2022-dj-mix/1729914968",
+      "url": "https://music.apple.com/album/world-on-a-wire-with-shir-khan-mar-26-2022-dj-mix/1729914968",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/69/31/2e/69312ec9-1222-1d3f-c767-0d2bb7dbb746/27855dfe-64f8-4c07-b9c6-70253786baa9.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "World On A Wire With Shir Khan: Feb 26, 2022 (DJ Mix)",
+      "date": "2022-02-26",
+      "collectionId": "1727791507",
+      "path": "world-on-a-wire-with-shir-khan-feb-26-2022-dj-mix/1727791507",
+      "url": "https://music.apple.com/album/world-on-a-wire-with-shir-khan-feb-26-2022-dj-mix/1727791507",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/11/12/31/111231a7-222c-96ca-999b-23ff13151152/7c594d4b-9bfc-42a1-8559-4f00404dee34.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "World On A Wire With Shir Khan: Jan 29, 2022 (DJ Mix)",
+      "date": "2022-01-29",
+      "collectionId": "1729498609",
+      "path": "world-on-a-wire-with-shir-khan-jan-29-2022-dj-mix/1729498609",
+      "url": "https://music.apple.com/album/world-on-a-wire-with-shir-khan-jan-29-2022-dj-mix/1729498609",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/cf/89/fb/cf89fb9d-6e92-470c-d441-4a7376f6ebac/9edb85b1-bdfa-4523-ba20-79f668ee6f1d.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "World On A Wire With Shir Khan: Dec 25, 2021 (DJ Mix)",
+      "date": "2021-12-25",
+      "collectionId": "1727787244",
+      "path": "world-on-a-wire-with-shir-khan-dec-25-2021-dj-mix/1727787244",
+      "url": "https://music.apple.com/album/world-on-a-wire-with-shir-khan-dec-25-2021-dj-mix/1727787244",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/1f/57/b6/1f57b68b-3339-638c-6ad6-d98956b81ab7/6ef18c35-186b-4087-9b50-bd1f154e2411.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "World On A Wire With Shir Khan: Nov 27, 2021 (DJ Mix)",
+      "date": "2021-11-27",
+      "collectionId": "1727804358",
+      "path": "world-on-a-wire-with-shir-khan-nov-27-2021-dj-mix/1727804358",
+      "url": "https://music.apple.com/album/world-on-a-wire-with-shir-khan-nov-27-2021-dj-mix/1727804358",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a9/34/b9/a934b9be-1176-4789-08d0-6f7cce57811b/a5021d52-1430-4cc5-a839-0a18ba90ddb9.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "World On A Wire With Shir Khan: Oct, 30, 2021 (DJ Mix)",
+      "date": "2021-10-30",
+      "collectionId": "1729698009",
+      "path": "world-on-a-wire-with-shir-khan-oct-30-2021-dj-mix/1729698009",
+      "url": "https://music.apple.com/album/world-on-a-wire-with-shir-khan-oct-30-2021-dj-mix/1729698009",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/79/74/f2/7974f27a-d602-ed2a-a61d-cdef7bd70520/2fe9745f-3650-4ddf-afeb-1962c86047dd.jpg/600x600bb.jpg"
+    }
+  ]
+}
