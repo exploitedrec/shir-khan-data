@@ -17,3 +17,4 @@ for (const it of items) {
   console.log(it.key, hit ? `${hit.collectionId} ${hit.collectionName}` : 'none');
 }
 await writeFile(new URL('./apple.json', import.meta.url), JSON.stringify(out, null, 1) + '\n');
+ 
