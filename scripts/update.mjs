@@ -3,7 +3,7 @@
 // Writes data/mixes.json, data/releases.json and data/upcoming.json. Every source is optional:
 // if one fails, the previous data for it is kept and the run still succeeds.
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
-import { APPLE_ARTIST_ID, splitApple, mergeMixes, parseBandcampMusic, parseExploitedPosts, releaseKey, isShirKhanRelease, searchLinks } from './lib.mjs';
+import { APPLE_ARTIST_ID, splitApple, mergeMixes, parseBandcampMusic, parseBandcampDiscography, parseExploitedPosts, releaseKey, isShirKhanRelease, searchLinks } from './lib.mjs';
 
 const DATA = new URL('../data/', import.meta.url);
 const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36';
@@ -54,8 +54,16 @@ const mixes = mergeMixes(prevMixes.mixes ?? [], apple.mixes);
 let bandcamp = [];
 try {
   bandcamp = parseBandcampMusic(await get('https://shirkhanofficial.bandcamp.com/music', { json: false }));
-  log(`bandcamp: ${bandcamp.length} items`);
-} catch (err) { warn('bandcamp scan failed', err); }
+  log(`bandcamp page: ${bandcamp.length} items`);
+} catch (err) { console.warn('[update] bandcamp page not usable, trying the Bandcamp API:', err.message); }
+if (!bandcamp.length) {
+  try {
+    const res = await fetch('https://bandcamp.com/api/mobile/25/band_details', { method: 'POST', headers: { 'user-agent': UA, 'content-type': 'application/json' }, body: JSON.stringify({ band_id: 1603964937 }), signal: AbortSignal.timeout(20000) });
+    if (!res.ok) throw new Error(`${res.status}`);
+    bandcamp = parseBandcampDiscography(await res.json());
+    log(`bandcamp api: ${bandcamp.length} items`);
+  } catch (err) { warn('bandcamp scan failed', err); }
+}
 
 // 3) exploitedghetto.de (WordPress): release announcements mentioning Shir Khan.
 let exploited = [];

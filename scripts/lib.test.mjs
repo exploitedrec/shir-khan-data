@@ -61,3 +61,11 @@ test('titleCase and isShirKhanRelease', () => {
   assert.ok(isShirKhanRelease('#EXPLOITED 2014 FFWD RWD'));
   assert.ok(!isShirKhanRelease('Joyce Muniz – Crystalline'));
 });
+
+test('Bandcamp fallbacks: plain grid HTML and the discography API', async () => {
+  const { parseBandcampDiscography } = await import('./lib.mjs');
+  const html = '<li data-item-id="album-1" class="music-grid-item"> <a href="/album/shir-khan-presents-black-jukebox-38"> <div class="art"> <img src="https://f4.bcbits.com/img/a2847830240_2.jpg" alt=""> </div> <p class="title"> Shir Khan Presents Black Jukebox 38 </p> </a></li>';
+  assert.deepEqual(parseBandcampMusic(html)[0], { title: 'Shir Khan Presents Black Jukebox 38', slug: 'shir-khan-presents-black-jukebox-38', url: 'https://shirkhanofficial.bandcamp.com/album/shir-khan-presents-black-jukebox-38', art: '2847830240', date: null });
+  const api = parseBandcampDiscography({ discography: [{ item_type: 'album', title: 'Shir Khan Presents Welt Am Draht 2026', art_id: 42, release_date: '27 Jan 2027 00:00:00 GMT' }] });
+  assert.deepEqual(api[0], { title: 'Shir Khan Presents Welt Am Draht 2026', slug: 'shir-khan-presents-welt-am-draht-2026', url: 'https://shirkhanofficial.bandcamp.com/album/shir-khan-presents-welt-am-draht-2026', art: '0000000042', date: '2027-01-27' });
+});

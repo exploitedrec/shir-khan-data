@@ -59,8 +59,13 @@ export function mergeMixes(previous, live) {
 
 /** Bandcamp /music page: the grid carries a JSON list in data-initial-values. */
 export function parseBandcampMusic(html, base = 'https://shirkhanofficial.bandcamp.com') {
-  const m = /data-initial-values="([^"]*)"/.exec(html);
-  if (!m) throw new Error('Bandcamp grid not found');
+  const m = /data-initial-values=["']([^"']*)["']/.exec(html);
+  if (!m) {
+    // Older/lighter page variant: plain grid items without the JSON blob.
+    const items = [...html.matchAll(/<li[^>]*data-item-id="(?:album|track)-\d+"[^>]*>[\s\S]*?<a href="([^"]+)"[\s\S]*?(?:data-original|src)="[^"]*\/img\/a(\d+)_\d+\.jpg"[\s\S]*?<p class="title">\s*([\s\S]*?)\s*(?:<br|<\/p>)/g)];
+    if (!items.length) throw new Error(`Bandcamp grid not found (${html.length} bytes, title: ${/<title>([^<]*)/.exec(html)?.[1] ?? '?'})`);
+    return items.map(([, href, art, title]) => ({ title: decodeEntities(title.replace(/<[^>]+>/g, '').trim()), slug: href.split('/').filter(Boolean).at(-1), url: new URL(href, base).href, art, date: null }));
+  }
   const json = m[1]
     .replace(/&quot;/g, '"')
     .replace(/&#39;/g, "'")
@@ -77,6 +82,17 @@ export function parseBandcampMusic(html, base = 'https://shirkhanofficial.bandca
       art: i.art_id ? String(i.art_id).padStart(10, '0') : null,
       date: isoDay(i.release_date) ?? isoDay(i.publish_date),
     }));
+}
+
+/** Bandcamp mobile API (band_details): discography with release dates, no page URLs. */
+export function parseBandcampDiscography(payload, base = 'https://shirkhanofficial.bandcamp.com') {
+  if (!payload || !Array.isArray(payload.discography)) throw new Error('Invalid Bandcamp discography');
+  return payload.discography
+    .filter((d) => d && d.title && (d.item_type === 'album' || d.item_type === 'track'))
+    .map((d) => {
+      const slug = String(d.title).toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g, '').replace(/&/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+      return { title: String(d.title).trim(), slug, url: `${base}/${d.item_type}/${slug}`, art: d.art_id ? String(d.art_id).padStart(10, '0') : null, date: isoDay(d.release_date) };
+    });
 }
 
 const ENTITIES = { '&amp;': '&', '&#038;': '&', '&#8211;': '–', '&#8217;': '’', '&#8216;': '‘', '&#8220;': '“', '&#8221;': '”', '&#8230;': '…', '&quot;': '"', '&#039;': "'" };
