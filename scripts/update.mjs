@@ -114,18 +114,23 @@ for (const a of apple.albums) {
   addSource(r, 'apple');
 }
 for (const p of exploited) {
+  // Announcements never create a release (it is not out yet) and never set its date or main link.
+  if (p.announcement) { const known = byKey.get(releaseKey(p.title)); if (known) known.exploitedUrl ??= p.url; continue; }
   if (!isNew(p.title, p.date)) continue;
   const r = touch(p.title);
-  r.exploitedUrl ??= p.url; r.date ??= p.date; r.url ??= p.url;
+  r.exploitedUrl ??= p.url; r.url ??= p.url;
+  if (!r.date && p.date) { r.date = p.date; r.dateFrom = 'label'; }
   addSource(r, 'exploitedghetto');
 }
 
 for (const p of labelReleases) {
   if (!isNew(p.title, p.date)) continue;
   const r = touch(p.title);
-  r.exploitedUrl ??= p.url; r.date ??= p.date;
+  r.exploitedUrl ??= p.url;
+  if (!r.date && p.date) { r.date = p.date; r.dateFrom = 'label'; }
   const { bandcamp, ...stores } = p.stores;
-  if (bandcamp) r.url = r.url && !isSearchLink(r.url) ? r.url : bandcamp;
+  // The Bandcamp page beats a label post/page link (set by the loop above when Bandcamp itself was unreachable).
+  if (bandcamp && (!r.url || isSearchLink(r.url) || /^https:\/\/exploitedghetto\.de\//.test(r.url))) r.url = bandcamp;
   r.url ??= p.url;
   // The label's own page is the most reliable source: its links replace guesses and fill gaps.
   for (const [k, v] of Object.entries(stores)) if (!r.stores[k] || isSearchLink(r.stores[k])) r.stores[k] = v;
@@ -144,7 +149,8 @@ async function resolveStores(r) {
         r.stores.deezer ??= `https://www.deezer.com/album/${hit.id}`;
         const album = await get(`https://api.deezer.com/album/${hit.id}`);
         if (album.upc) r.upc ??= album.upc;
-        if (!r.date && album.release_date) r.date = album.release_date;
+        // Store release dates beat dates taken from label posts/pages (those are publication dates).
+        if (album.release_date && (!r.date || r.dateFrom === 'label')) { r.date = album.release_date; r.dateFrom = 'deezer'; }
       }
     }
     if (!r.stores.apple && r.upc) {

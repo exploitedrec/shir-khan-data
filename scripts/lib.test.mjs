@@ -91,3 +91,11 @@ test('exploitedghetto.de release feed and release pages give exact store links',
   assert.ok(isSearchLink('https://www.beatport.com/search/releases?q=x'));
   assert.ok(!isSearchLink('https://open.spotify.com/album/0c3IefqXR31BqGK66rBdTV'));
 });
+
+test('a COMING SOON post does not give the release a date (its post date is not the release date)', () => {
+  const [p] = parseExploitedPosts([{ date: '2026-10-20T10:00:00', link: 'https://exploitedghetto.de/x/', title: { rendered: 'COMING SOON: Shir Khan Presents Welt Am Draht 2026' }, categories: [31] }]);
+  assert.equal(p.announcement, true);
+  assert.equal(p.date, null);
+  const [q] = parseExploitedPosts([{ date: '2026-06-05T10:00:00', link: 'https://exploitedghetto.de/y/', title: { rendered: 'OUT TODAY: Shir Khan Presents Black Jukebox 38' }, categories: [31] }]);
+  assert.equal(q.date, '2026-06-05');
+});

@@ -114,7 +114,9 @@ export function parseExploitedPosts(posts, releaseCategoryId = 31) {
     .map((p) => {
       const raw = decodeEntities(p.title.rendered).trim();
       const stripped = raw.replace(/^(?:OUT\s+(?:TODAY|NOW)|NEW(?:\s+RELEASE)?|COMING\s+SOON)(?:\s+ON\s+\w+)?\s*[:\-–]\s*/i, '').trim();
-      return { title: titleCase(stripped), url: p.link, date: isoDay(p.date) };
+      // A "COMING SOON" post is published before the release: its post date is not the release date.
+      const announcement = /^(?:COMING\s+SOON|PRE-?ORDER)\b/i.test(raw);
+      return { title: titleCase(stripped), url: p.link, date: announcement ? null : isoDay(p.date), announcement };
     });
 }
 
