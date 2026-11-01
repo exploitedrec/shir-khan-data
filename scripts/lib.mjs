@@ -136,11 +136,42 @@ export function releaseKey(title) {
 /** Only titles that are Shir Khan releases (not other Exploited artists). */
 export const isShirKhanRelease = (title) => /shir\s*khan|exploited\s+20\d\d\s+ffwd/i.test(title);
 
-export const searchLinks = (title) => {
-  const q = encodeURIComponent(title);
-  return {
-    spotify: `https://open.spotify.com/search/${q}`,
-    beatport: `https://www.beatport.com/search/releases?q=${q}`,
-    traxsource: `https://www.traxsource.com/search?term=${q}`,
-  };
+/** exploitedghetto.de/releases/feed/ (RSS) → release pages. */
+export function parseReleaseFeed(xml) {
+  return [...String(xml).matchAll(/<item>([\s\S]*?)<\/item>/g)].map(([, item]) => {
+    const tag = (name) => decodeEntities((new RegExp(`<${name}>(?:<!\\[CDATA\\[)?([\\s\\S]*?)(?:\\]\\]>)?<\\/${name}>`).exec(item)?.[1] ?? '').trim());
+    return { title: tag('title'), url: tag('link'), date: isoDay(tag('pubDate')) };
+  }).filter((i) => i.title && /^https:\/\/exploitedghetto\.de\//.test(i.url));
+}
+
+/** "Ilija Rudman – Shir Khan Presents Black Jukebox 38" / "Various Artists: Shir Khan presents …" → "Shir Khan Presents …". */
+export function shirKhanTitle(title) {
+  const m = /shir\s*khan\s+presents\s+(.+)$/i.exec(decodeEntities(title));
+  return m ? `Shir Khan Presents ${m[1].trim()}` : null;
+}
+
+// Exact release links only (never label pages, playlists or search pages).
+const STORE_PATTERNS = {
+  beatport: /^https:\/\/(?:www\.)?beatport\.com\/(?:[a-z]{2}\/)?release\/[^"'\s<>]+\/\d+/i,
+  apple: /^https:\/\/(?:music|itunes)\.apple\.com\/(?:[a-z]{2}\/)?album\/[^"'\s<>]+/i,
+  spotify: /^https:\/\/open\.spotify\.com\/album\/[A-Za-z0-9]+/,
+  traxsource: /^https:\/\/(?:www\.)?traxsource\.com\/title\/\d+[^"'\s<>]*/i,
+  bandcamp: /^https:\/\/[a-z0-9-]+\.bandcamp\.com\/album\/[^"'\s<>]+/i,
 };
+/** Store links from a release page on exploitedghetto.de (the "Buy on" list). Storefront codes are removed. */
+export function parseReleaseStores(html) {
+  const found = {};
+  for (const [, href] of String(html).matchAll(/<a[^>]+href="([^"]+)"/g)) {
+    const url = decodeEntities(href).split('?')[0].replace(/\/$/, '');
+    for (const [store, re] of Object.entries(STORE_PATTERNS)) {
+      if (found[store] || !re.test(url)) continue;
+      found[store] = url
+        .replace(/^https:\/\/(www\.)?beatport\.com\/[a-z]{2}\/release\//, 'https://www.beatport.com/release/')
+        .replace(/^https:\/\/(?:music|itunes)\.apple\.com\/[a-z]{2}\/album\//, 'https://music.apple.com/album/');
+    }
+  }
+  return found;
+}
+
+/** Anything that is a search page rather than the release itself. */
+export const isSearchLink = (url) => typeof url === 'string' && /\/search(?:\/|\?|$)|[?&](?:q|term)=/.test(url);

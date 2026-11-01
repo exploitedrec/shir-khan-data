@@ -3,7 +3,7 @@
 // Writes data/mixes.json, data/releases.json and data/upcoming.json. Every source is optional:
 // if one fails, the previous data for it is kept and the run still succeeds.
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
-import { APPLE_ARTIST_ID, splitApple, mergeMixes, parseBandcampMusic, parseBandcampDiscography, parseExploitedPosts, releaseKey, isShirKhanRelease, searchLinks } from './lib.mjs';
+import { APPLE_ARTIST_ID, splitApple, mergeMixes, parseBandcampMusic, parseBandcampDiscography, parseExploitedPosts, releaseKey, isShirKhanRelease, parseReleaseFeed, shirKhanTitle, parseReleaseStores, isSearchLink } from './lib.mjs';
 
 const DATA = new URL('../data/', import.meta.url);
 const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36';
@@ -73,6 +73,20 @@ try {
   log(`exploitedghetto.de: ${exploited.length} release posts`);
 } catch (err) { warn('exploitedghetto.de scan failed', err); }
 
+// 3b) exploitedghetto.de release pages: exact store links (Beatport, Apple, Spotify, Traxsource, Bandcamp).
+let labelReleases = [];
+try {
+  const feed = parseReleaseFeed(await get('https://exploitedghetto.de/releases/feed/', { json: false }));
+  for (const item of feed) {
+    const title = shirKhanTitle(item.title);
+    if (!title) continue;
+    try {
+      labelReleases.push({ title, url: item.url, date: item.date, stores: parseReleaseStores(await get(item.url, { json: false })) });
+    } catch (err) { warn(`release page failed: ${item.url}`, err); }
+  }
+  log(`exploitedghetto.de releases: ${feed.length} in feed, ${labelReleases.length} by Shir Khan`);
+} catch (err) { warn('exploitedghetto.de release feed failed', err); }
+
 // Merge everything by normalised title. Existing entries keep their resolved store links.
 const byKey = new Map();
 for (const r of prevReleases.releases ?? []) byKey.set(releaseKey(r.title), { ...r });
@@ -106,6 +120,20 @@ for (const p of exploited) {
   addSource(r, 'exploitedghetto');
 }
 
+for (const p of labelReleases) {
+  if (!isNew(p.title, p.date)) continue;
+  const r = touch(p.title);
+  r.exploitedUrl ??= p.url; r.date ??= p.date;
+  const { bandcamp, ...stores } = p.stores;
+  if (bandcamp) r.url = r.url && !isSearchLink(r.url) ? r.url : bandcamp;
+  r.url ??= p.url;
+  // The label's own page is the most reliable source: its links replace guesses and fill gaps.
+  for (const [k, v] of Object.entries(stores)) if (!r.stores[k] || isSearchLink(r.stores[k])) r.stores[k] = v;
+  addSource(r, 'exploitedghetto');
+}
+// Never keep search pages as store links.
+for (const r of byKey.values()) for (const k of Object.keys(r.stores)) if (isSearchLink(r.stores[k])) r.stores[k] = null;
+
 // Resolve missing store links for releases we have not completed yet (new ones, mostly).
 async function resolveStores(r) {
   try {
@@ -125,10 +153,6 @@ async function resolveStores(r) {
       if (hit) r.stores.apple = `https://music.apple.com/album/${hit.collectionId}`;
     }
   } catch (err) { warn(`store lookup failed for ${r.title}`, err); }
-  const search = searchLinks(r.title);
-  r.stores.spotify ??= search.spotify;
-  r.stores.beatport ??= search.beatport;
-  r.stores.traxsource ??= search.traxsource;
 }
 // Each release is resolved once (seeded ones already are); a null store afterwards means "not on that store".
 // Unreleased titles are retried daily until release day, because stores often list them late.
@@ -166,5 +190,5 @@ if (process.env.GITHUB_STEP_SUMMARY) {
   await writeFile(process.env.GITHUB_STEP_SUMMARY, `${lines.join('\n')}\n`, { flag: 'a' });
 }
 // Fail loudly (GitHub e-mails the repo owner) when every source broke, so a silent outage gets noticed.
-if (!apple.mixes.length && !bandcamp.length && !exploited.length) { console.error('[update] all sources failed'); process.exit(1); }
+if (!apple.mixes.length && !bandcamp.length && !exploited.length && !labelReleases.length) { console.error('[update] all sources failed'); process.exit(1); }
 log(`done: ${mixes.length} mixes, ${releases.length} releases, ${upcoming.length} upcoming, ${warnings.length} warnings`);

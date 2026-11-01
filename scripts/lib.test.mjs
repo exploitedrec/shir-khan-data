@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { showDate, splitApple, mergeMixes, parseBandcampMusic, parseExploitedPosts, releaseKey, titleCase, isShirKhanRelease } from './lib.mjs';
+import { showDate, splitApple, mergeMixes, parseBandcampMusic, parseExploitedPosts, releaseKey, titleCase, isShirKhanRelease, parseReleaseFeed, shirKhanTitle, parseReleaseStores, isSearchLink } from './lib.mjs';
 
 test('showDate reads the show date from mix titles', () => {
   assert.equal(showDate('World On A Wire With Shir Khan: Jul 10, 2026 (DJ Mix)'), '2026-07-10');
@@ -68,4 +68,26 @@ test('Bandcamp fallbacks: plain grid HTML and the discography API', async () => 
   assert.deepEqual(parseBandcampMusic(html)[0], { title: 'Shir Khan Presents Black Jukebox 38', slug: 'shir-khan-presents-black-jukebox-38', url: 'https://shirkhanofficial.bandcamp.com/album/shir-khan-presents-black-jukebox-38', art: '2847830240', date: null });
   const api = parseBandcampDiscography({ discography: [{ item_type: 'album', title: 'Shir Khan Presents Welt Am Draht 2026', art_id: 42, release_date: '27 Jan 2027 00:00:00 GMT' }] });
   assert.deepEqual(api[0], { title: 'Shir Khan Presents Welt Am Draht 2026', slug: 'shir-khan-presents-welt-am-draht-2026', url: 'https://shirkhanofficial.bandcamp.com/album/shir-khan-presents-welt-am-draht-2026', art: '0000000042', date: '2027-01-27' });
+});
+
+test('exploitedghetto.de release feed and release pages give exact store links', () => {
+  const feed = `<rss><channel><item><title>Various Artists: Shir Khan presents Welt Am Draht 2025</title><link>https://exploitedghetto.de/releases/various-artists-shir-khan-presents-welt-am-draht-2025/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate></item>
+    <item><title>Ilija Rudman &#8211; Shir Khan Presents Black Jukebox 38</title><link>https://exploitedghetto.de/releases/10533/</link><pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate></item>
+    <item><title>Maltitz &#8211; Groovy Boy</title><link>https://exploitedghetto.de/releases/maltitz-groovy-boy/</link><pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate></item></channel></rss>`;
+  const items = parseReleaseFeed(feed);
+  assert.equal(items.length, 3);
+  assert.deepEqual(items.map((i) => shirKhanTitle(i.title)), ['Shir Khan Presents Welt Am Draht 2025', 'Shir Khan Presents Black Jukebox 38', null]);
+  assert.equal(items[0].date, '2026-01-30');
+  const page = `<a href="https://www.beatport.com/label/exploited/7600">x</a><a href="https://open.spotify.com/user/exploited_admin/playlist/5Wa">p</a>
+    <ul> <li> <a href="https://www.beatport.com/de/release/shir-khan-presents-welt-am-draht-2025/5649997" target="_blank">beatport</a> </li> <li> <a href="https://music.apple.com/album/shir-khan-presents-welt-am-draht-2025/1856641575" target="_blank">iTunes</a> </li> <li> <a href="https://open.spotify.com/album/0c3IefqXR31BqGK66rBdTV" target="_blank">spotify</a> </li> <li> <a href="https://shirkhanofficial.bandcamp.com/album/shir-khan-presents-welt-am-draht-2025-2" target="_blank">bandcamp</a> </li> <li> <a href="https://www.junodownload.com/products/x/7373957-02/" target="_blank">juno</a> </li> <li> <a href="https://www.traxsource.com/title/2671788/shir-khan-presents-welt-am-draht-2025" target="_blank">traxsource</a> </li> </ul>`;
+  assert.deepEqual(parseReleaseStores(page), {
+    beatport: 'https://www.beatport.com/release/shir-khan-presents-welt-am-draht-2025/5649997',
+    apple: 'https://music.apple.com/album/shir-khan-presents-welt-am-draht-2025/1856641575',
+    spotify: 'https://open.spotify.com/album/0c3IefqXR31BqGK66rBdTV',
+    bandcamp: 'https://shirkhanofficial.bandcamp.com/album/shir-khan-presents-welt-am-draht-2025-2',
+    traxsource: 'https://www.traxsource.com/title/2671788/shir-khan-presents-welt-am-draht-2025',
+  });
+  assert.ok(isSearchLink('https://open.spotify.com/search/Shir%20Khan'));
+  assert.ok(isSearchLink('https://www.beatport.com/search/releases?q=x'));
+  assert.ok(!isSearchLink('https://open.spotify.com/album/0c3IefqXR31BqGK66rBdTV'));
 });

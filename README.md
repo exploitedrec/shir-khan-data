@@ -6,7 +6,7 @@ DJ mixes and releases, and commits JSON files the website reads at runtime. No k
 | File | Content | Source |
 |---|---|---|
 | `data/mixes.json` | All Apple Music DJ mixes, newest first (show date from the title) | iTunes lookup, artist 252870689 |
-| `data/releases.json` | All Shir Khan releases incl. pre-orders, with store links | Apple Music (incl. pre-orders), exploitedghetto.de, Deezer (UPC); Bandcamp when it lets the runner in |
+| `data/releases.json` | All Shir Khan releases incl. pre-orders, with exact store links | exploitedghetto.de release pages (Beatport, Apple, Spotify, Traxsource, Bandcamp), Apple Music, Deezer (UPC); Bandcamp when it lets the runner in |
 | `data/upcoming.json` | Announced releases not out yet (generated) | `upcoming.manual.json` + pre-orders |
 | `data/upcoming.manual.json` | **Edit by hand** to announce a release early | you |
 
@@ -19,10 +19,10 @@ Website URLs (raw, cached by the site for 1 hour):
 ## How it behaves
 
 - A new mix on Apple Music appears on the site within about 12 hours and becomes the featured mix under **Latest**.
-- A new release appears once it is on Bandcamp, Apple Music, or posted on exploitedghetto.de (category *Releases*,
-  title containing "Shir Khan"). Pre-orders show as **Coming soon** and move into the release list on release day.
-- Store links: Deezer and Apple are resolved by title/UPC. Spotify, Beatport, and Traxsource start as search links;
-  replace them with the exact URL in `releases.json` if you want.
+- A new release appears on its release day once it is on exploitedghetto.de/releases, Apple Music or Bandcamp
+  (title containing "Shir Khan Presents"). Future-dated releases are kept in the data but not shown on the site.
+- Store links are exact release links only, never search pages: taken from the release page on exploitedghetto.de
+  (the "Buy on" list), plus Apple and Deezer by title/UPC. A store without an exact link is simply not shown.
 - Nothing is deleted automatically. If a source fails, the previous data stays, and the run only fails (GitHub sends
   an e-mail) when every source fails.
 
