@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # One-off: download vinyl-only artwork sources so they can be cropped to uniform square tiles.
 set -euo pipefail
-cd "$(dirname "$0")/covers"
+mkdir -p "$(dirname "$0")/covers" && cd "$(dirname "$0")/covers"
 UA="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 Chrome/130 Safari/537.36"
 get() { curl -fsSL -A "$UA" -e "$3" -o "$1" "$2" && echo "ok $1 $(stat -c %s "$1")" || echo "FAIL $1"; }
 get bj02.jpg https://exploitedghetto.de/wp-content/uploads/2020/11/EXPDIGITAL208_EXPLOITED_GHETTO_VOL6-26.jpg https://exploitedghetto.de/
