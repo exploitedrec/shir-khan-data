@@ -62,7 +62,7 @@ if (!bandcamp.length) {
     if (!res.ok) throw new Error(`${res.status}`);
     bandcamp = parseBandcampDiscography(await res.json());
     log(`bandcamp api: ${bandcamp.length} items`);
-  } catch (err) { warn('bandcamp scan failed', err); }
+  } catch (err) { log('bandcamp not reachable from this runner (bot check) — Apple, Deezer and exploitedghetto.de cover new releases:', err.message); }
 }
 
 // 3) exploitedghetto.de (WordPress): release announcements mentioning Shir Khan.

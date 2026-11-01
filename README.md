@@ -6,7 +6,7 @@ DJ mixes and releases, and commits JSON files the website reads at runtime. No k
 | File | Content | Source |
 |---|---|---|
 | `data/mixes.json` | All Apple Music DJ mixes, newest first (show date from the title) | iTunes lookup, artist 252870689 |
-| `data/releases.json` | All Shir Khan releases incl. pre-orders, with store links | Bandcamp `shirkhanofficial`, Apple, exploitedghetto.de, Deezer (UPC) |
+| `data/releases.json` | All Shir Khan releases incl. pre-orders, with store links | Apple Music (incl. pre-orders), exploitedghetto.de, Deezer (UPC); Bandcamp when it lets the runner in |
 | `data/upcoming.json` | Announced releases not out yet (generated) | `upcoming.manual.json` + pre-orders |
 | `data/upcoming.manual.json` | **Edit by hand** to announce a release early | you |
 
